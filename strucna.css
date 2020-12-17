@@ -1,0 +1,38 @@
+/*Cijela stranica*/
+body {
+	background-image: url('https://asholding.sharepoint.com/_catalogs/theme/Themed/413332F/5bbb617a-ca0b-45eb-a9b9-227f834c9ec7bkimage-FA004337.themedjpg?ctag?x=1597830619912');
+	background-size: cover;
+}
+
+/*Slike*/
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+  height: 450px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 340px;
+  padding: 5px;
+}
+
+div.desc {
+  padding: 10px;
+  align-items: flex-end;
+  text-align: center;
+}
+
+/*Pop-up*/
+
+.modal-body {
+  text-align: justify;
+}
+
